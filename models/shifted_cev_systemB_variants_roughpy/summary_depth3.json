@@ -1,0 +1,237 @@
+{
+  "system": "B",
+  "depth": 3,
+  "sig_dir": "data\\processed\\shifted_cev_systemB_signatures",
+  "model": {
+    "type": "LogisticRegression",
+    "solver": "lbfgs",
+    "C": 1.0,
+    "max_iter": 1000
+  },
+  "variants": {
+    "base_sig": {
+      "dims": {
+        "X_dim": 14,
+        "n_train": 80000,
+        "n_val": 10000,
+        "n_test": 10000
+      },
+      "metrics": {
+        "train": {
+          "accuracy": 0.9354125,
+          "roc_auc": 0.96359547,
+          "confusion_matrix": [
+            [
+              39545,
+              455
+            ],
+            [
+              4712,
+              35288
+            ]
+          ]
+        },
+        "val": {
+          "accuracy": 0.9427,
+          "roc_auc": 0.96884444,
+          "confusion_matrix": [
+            [
+              4942,
+              58
+            ],
+            [
+              515,
+              4485
+            ]
+          ]
+        },
+        "test": {
+          "accuracy": 0.9354,
+          "roc_auc": 0.9688139600000001,
+          "confusion_matrix": [
+            [
+              4938,
+              62
+            ],
+            [
+              584,
+              4416
+            ]
+          ]
+        }
+      },
+      "artifacts": {
+        "scaler": "models\\shifted_cev_systemB_variants_roughpy\\base_sig_depth3\\scaler.joblib",
+        "model": "models\\shifted_cev_systemB_variants_roughpy\\base_sig_depth3\\model.joblib"
+      }
+    },
+    "base_log": {
+      "dims": {
+        "X_dim": 5,
+        "n_train": 80000,
+        "n_val": 10000,
+        "n_test": 10000
+      },
+      "metrics": {
+        "train": {
+          "accuracy": 0.9351875,
+          "roc_auc": 0.9591918365625001,
+          "confusion_matrix": [
+            [
+              39460,
+              540
+            ],
+            [
+              4645,
+              35355
+            ]
+          ]
+        },
+        "val": {
+          "accuracy": 0.9418,
+          "roc_auc": 0.9650666,
+          "confusion_matrix": [
+            [
+              4928,
+              72
+            ],
+            [
+              510,
+              4490
+            ]
+          ]
+        },
+        "test": {
+          "accuracy": 0.936,
+          "roc_auc": 0.9653504800000001,
+          "confusion_matrix": [
+            [
+              4927,
+              73
+            ],
+            [
+              567,
+              4433
+            ]
+          ]
+        }
+      },
+      "artifacts": {
+        "scaler": "models\\shifted_cev_systemB_variants_roughpy\\base_log_depth3\\scaler.joblib",
+        "model": "models\\shifted_cev_systemB_variants_roughpy\\base_log_depth3\\model.joblib"
+      }
+    },
+    "ll_sig": {
+      "dims": {
+        "X_dim": 39,
+        "n_train": 80000,
+        "n_val": 10000,
+        "n_test": 10000
+      },
+      "metrics": {
+        "train": {
+          "accuracy": 0.9376875,
+          "roc_auc": 0.9683567162500001,
+          "confusion_matrix": [
+            [
+              39569,
+              431
+            ],
+            [
+              4554,
+              35446
+            ]
+          ]
+        },
+        "val": {
+          "accuracy": 0.9446,
+          "roc_auc": 0.9722254,
+          "confusion_matrix": [
+            [
+              4941,
+              59
+            ],
+            [
+              495,
+              4505
+            ]
+          ]
+        },
+        "test": {
+          "accuracy": 0.9379,
+          "roc_auc": 0.9717181599999999,
+          "confusion_matrix": [
+            [
+              4942,
+              58
+            ],
+            [
+              563,
+              4437
+            ]
+          ]
+        }
+      },
+      "artifacts": {
+        "scaler": "models\\shifted_cev_systemB_variants_roughpy\\ll_sig_depth3\\scaler.joblib",
+        "model": "models\\shifted_cev_systemB_variants_roughpy\\ll_sig_depth3\\model.joblib"
+      }
+    },
+    "ll_log": {
+      "dims": {
+        "X_dim": 14,
+        "n_train": 80000,
+        "n_val": 10000,
+        "n_test": 10000
+      },
+      "metrics": {
+        "train": {
+          "accuracy": 0.935625,
+          "roc_auc": 0.9603538796874999,
+          "confusion_matrix": [
+            [
+              39491,
+              509
+            ],
+            [
+              4641,
+              35359
+            ]
+          ]
+        },
+        "val": {
+          "accuracy": 0.9423,
+          "roc_auc": 0.96596618,
+          "confusion_matrix": [
+            [
+              4931,
+              69
+            ],
+            [
+              508,
+              4492
+            ]
+          ]
+        },
+        "test": {
+          "accuracy": 0.9362,
+          "roc_auc": 0.96652992,
+          "confusion_matrix": [
+            [
+              4933,
+              67
+            ],
+            [
+              571,
+              4429
+            ]
+          ]
+        }
+      },
+      "artifacts": {
+        "scaler": "models\\shifted_cev_systemB_variants_roughpy\\ll_log_depth3\\scaler.joblib",
+        "model": "models\\shifted_cev_systemB_variants_roughpy\\ll_log_depth3\\model.joblib"
+      }
+    }
+  }
+}

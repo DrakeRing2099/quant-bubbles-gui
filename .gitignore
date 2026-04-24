@@ -1,0 +1,47 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tool caches and local config
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Streamlit local state
+.streamlit/secrets.toml
+
+# IDE / OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Local outputs and generated artifacts
+outputs/
+
+# Large local data files
+data/raw/
+data/processed/
+*.npz
+
+# Keep deployment artifacts in git
+!models/
+!models/**
+!gui/universes/universes.json
