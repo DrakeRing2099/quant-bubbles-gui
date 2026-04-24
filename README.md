@@ -1,6 +1,6 @@
 # Quant Bubbles — Asset Bubble Detection via Path Signatures
 
-> **Live demo →** [your-app.streamlit.app](https://your-app.streamlit.app)  
+> **Live demo →** [quant-bubbles.streamlit.app](https://quant-bubbles.streamlit.app)  
 > Detects asset price bubbles in real market data using path signature features and multiple ML classifiers, trained on synthetic SDE-based datasets.
 
 ---
